@@ -1,0 +1,407 @@
+html{
+    font-size: 62.5%;
+    height: 62.5%;
+    top: 62.5%;
+    bottom: 62.5%;
+    right: 62.5%;
+    border-radius: 62.5%;
+    width: 62.5%;
+    left: 62.5%;
+
+}
+
+body{
+    background-color: whitesmoke;
+    height: 100%;
+    width: 100%;
+}
+.chatbox {
+    position: absolute;
+    bottom: 1.5rem;
+    right: 3rem;
+}
+
+.chatbox__support {
+    display: flex;
+    flex-direction: column;
+    top: 100px;
+    height: 62.9rem;
+    width: 41.6rem;
+    left: -15rem;
+    right: -1rem;
+    border-radius: 18px;
+    background-color: #ffffff;
+    position: relative;
+    box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.08);
+    text-align: center;
+    z-index: -123456;
+    opacity: 0;
+    transition: all .5s ease-in-out;
+
+
+
+    
+}
+
+.header{
+    position: absolute;
+    width: 41.6rem;
+    height: 27.8rem;
+    left: 0px;
+    top: -1px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background: linear-gradient(123.75deg, #F5821F 1.87%, #FF5C00 120.46%);
+}
+
+.rec3{
+    position: absolute;
+    width: 39rem;
+    height: 41rem;
+    left: 1.3rem;
+    top: 19.9rem;
+    border-radius: 15px;
+    background: #FFFFFF;
+    border: 1px solid #E4E4E4;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.05);
+}
+
+
+.para2{
+    position: absolute;
+width: 18.8rem;
+height: 1.8rem;
+left: 2rem;
+top: .7rem;
+
+font-family: DM Sans;
+font-style: normal;
+font-weight: 500;
+font-size: 1.4rem;
+line-height: 18px;
+color: #2D2D2D;
+}
+
+
+.img{
+    width: 5rem;
+    padding:10px;
+    border-radius: 60px;
+}
+
+
+.title{
+    position: absolute;
+    width: 5.3rem;
+    height: 3.9rem;
+    left: 5.4rem;
+    top: .5rem;
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 39px;
+    color: #FFFFFF;
+}
+
+.hello{
+    position: absolute;
+    width: 5.4rem;
+    height: 2.9rem;
+    left: 5.3rem;
+    top: 5rem;
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2.2rem;
+    line-height: 29px;
+    color: #FFFFFF;
+
+}
+
+.elec{
+    position: absolute;
+    width: 7rem;
+    height: 7rem;
+    left: 3.8rem;
+    top: -3.5rem;
+    border-radius: 40px;
+    background: linear-gradient(180deg, #FF7600 0%, #FF5C00 100%);
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
+}
+
+.paras{
+    position: absolute;
+    width: 22.8rem;
+    height: 4.6rem;
+    left: 4.3rem;
+    top: 9.5rem;
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.8rem;
+    line-height: 23px;
+    color: #FFFFFF;
+
+}
+
+.paras2{
+    position : absolute;
+    width: 22.8rem;
+    height: 3rem;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.8rem;
+    line-height: 20px;
+    color: #FFFFFF;
+    top: 11.6rem;
+    left: 2rem;
+    right: 13.2rem;
+
+}
+.ellipes2{
+    position: absolute;
+    width: 25.1rem;
+    height: 2.1rem;
+    left: 3.8rem;
+    top: 29.2rem;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.2rem;
+    line-height: 21px;
+    color: #2D2D2D;
+}
+
+.box1{
+position: absolute;
+width: 33.9rem;
+height: 5rem;
+left: 2.5rem;
+top: 7rem;
+background: #FFFFFF;
+border: 1px solid #E1E1E1;
+box-sizing: border-box;
+box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.05);
+border-radius: 8px;
+
+}
+
+
+.box2{
+    position: absolute;
+    width: 34rem;
+    height: 5rem;
+    left: 2.5rem;
+    top: 14.0rem;
+    background: #FFFFFF;
+    border: 1px solid #E1E1E1;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+
+}
+
+.box3{
+ position: absolute;
+width: 33.9rem;
+height: 5.0rem;
+left: 2.5rem;
+top: 21.0rem;
+background: #FFFFFF;
+border: 1px solid #E1E1E1;
+box-sizing: border-box;
+box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.05);
+border-radius: 8px;
+}
+
+
+
+
+.box4{
+    position: absolute;
+    width: 33.9rem;
+    height: 5rem;
+    left: 2.5rem;
+    top: 28.0rem;
+    background: #FFFFFF;
+    border: 1px solid #E1E1E1;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+}
+
+
+.conv{
+    position: absolute;
+    width: 26.8rem;
+    height: 4.4rem;
+    left: 6.5rem;
+    top: 35.0rem;
+    background: #FFFFFF;
+    border: 1px solid #D1D1D1;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 100px;
+}
+
+.para3{
+    position: absolute;
+    height: 2.1rem;
+    right: 9rem;
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.4rem;
+    line-height: 18px;
+    font-size: 1.2rem;
+    line-height: 21px;
+    color: #2D2D2D;
+}
+
+
+.para4{
+    position: absolute;
+    height: 2.1rem;
+    left: 2rem;
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.2rem;
+    line-height: 21px;
+    color: #2D2D2D;
+}
+
+
+.para5{
+    position: absolute;
+    height: 2.1rem;
+    left: 2rem;
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.2rem;
+    line-height: 21px;
+    color: #2D2D2D;
+}
+
+.para6{
+    position: absolute;
+    height: 2.1rem;
+    left: 2rem;
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.2rem;
+    line-height: 21px;
+    color: #2D2D2D;
+}
+
+.para7{
+    position: absolute;
+    width: 16.8rem;
+    height: 1.8rem;
+    left: 5.3rem;
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: 500;
+   font-size: 1.4rem;
+    line-height: 18px;
+   color: #2D2D2D;
+}
+
+.chatbox--active {
+    transform: translateY(-40px);
+    z-index: 123456;
+    opacity: 1;
+    
+}
+
+.chatbox__button button,
+.chatbox__button button:focus,
+.chatbox__button button:visited {
+    padding: 10px;
+    background: white;
+    border: none;
+    outline: none;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+
+.chatbox__button {
+    text-align: right;
+}
+
+
+@media screen and (max-width:998px) {
+
+    html{
+        font-size: 55%;
+        height: 55%;
+        top: 55%;
+        bottom: 55%;
+        right: 55%;
+        border-radius: 55%;
+        width: 55%;
+        left: 55%;
+    
+    }
+}
+
+@media screen and (max-width:768px){
+    html{
+        font-size: 45%;
+        height: 45%;
+        top: 45%;
+        bottom: 45%;
+        right: 45%;
+        border-radius: 45%;
+        width: 45%;
+        left: 45%;
+    
+
+    }
+}
+
+@media screen and (max-width:425) {
+
+     html{
+        font-size: 40%;
+        height: 40%;
+        top: 40%;
+        bottom: 40%;
+        right: 40%;
+        border-radius: 40%;
+        width: 40%;
+        left: 40%;
+    
+
+    }
+}
+
+
+@media screen and (max-width:375){
+
+    html{
+        font-size: 15%;
+        height: 15%;
+        top: 15%;
+        bottom: 15%;
+        right: 15%;
+        border-radius: 15%;
+        width: 15%;
+        left: 15%;
+    
+
+    }
+
+    
+}
+
+
+
+
